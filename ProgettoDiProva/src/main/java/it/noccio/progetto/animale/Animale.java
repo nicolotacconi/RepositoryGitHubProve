@@ -2,6 +2,12 @@ package it.noccio.progetto.animale;
 
 public abstract class Animale {
 
+	public Animale(int eta, int zampe, String nome) {
+		this.eta = eta;
+		this.zampe = zampe;
+		this.nome = nome;
+	}
+
 	private int eta;
 	private int zampe;
 	private String nome;
