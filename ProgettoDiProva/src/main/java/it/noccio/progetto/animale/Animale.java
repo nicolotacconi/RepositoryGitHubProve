@@ -1,5 +1,10 @@
 package it.noccio.progetto.animale;
 
+/**
+ * CLasse Animale
+ * @author arx50036
+ *
+ */
 public abstract class Animale {
 
 	public Animale(int eta, int zampe, String nome) {
